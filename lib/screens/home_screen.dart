@@ -69,21 +69,15 @@ class CustomFloatingActionButton extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
-        //const SizedBox(width: 20),
         FloatingActionButton(
-          //child: const Icon(Icons.add),
           child: const Text('-1'),
           onPressed: () => decrementarFn(),
         ),
-        //const SizedBox(width: 20),
         FloatingActionButton(
-          //child: const Icon(Icons.add),
           child: const Text('RESET'),
           onPressed: () => resetFn(),
         ),
-        //const SizedBox(width: 20),
         FloatingActionButton(
-          //child: const Icon(Icons.add),
           child: const Text('+1'),
           onPressed: () => incrementarFn(),
         ),
